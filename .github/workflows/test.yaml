@@ -1,0 +1,21 @@
+name: test
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - run: ls
+      - run: npm install
+      - run: npm test
+      - run: npm run start
+    
+      - name: variables
+        run: printenv
