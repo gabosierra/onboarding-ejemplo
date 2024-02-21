@@ -1,8 +1,8 @@
 {
-  "name": "cosito",
+  "name": "ejemplo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "users.js",
   "scripts": {
     "start": "node index.js",
     "test": "jest"
