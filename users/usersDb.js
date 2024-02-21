@@ -1,4 +1,4 @@
-let users = [{ id: 1, name: 'Juan Jimenez' }];
+let users = [{ id: 1, name: 'Juan Diaz' }];
 
 function findAll() {
   return users;

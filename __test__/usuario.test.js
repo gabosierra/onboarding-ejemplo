@@ -11,7 +11,7 @@ test('find all users', () => {
 });
 
 test('find user by id', () => {
-  expect(users.getUser(1)).toEqual({ id: 1, name: 'Juan Jimenez' });
+  expect(users.getUser(1)).toEqual({ id: 1, name: 'Juan Diaz' });
 });
 
 test('create a new user', () => {
